@@ -3,14 +3,8 @@ function checkNumber(num) {
 	num = +num;
 	if(num%2 === 0 && num%5 === 0){
 			return true;
-		}
-	if(num > 0){
-		if(num%2 === 0 && num%5 === 0){
-			return true;
-		}
-	}else{
-		return false;
 	}
+	
 	return false;
 }
 
